@@ -1,0 +1,19 @@
+Build a responsive, modern Swiss-inspired dark-mode agency portfolio website using React, Tailwind CSS, and Framer Motion. 
+
+Visual Style & Colors:
+- Deep matte black background (#0A0A0A) with dark translucent frosted cards (bg-white/5 border border-white/10) and crisp white/gray typography (#FFFFFF, #9CA3AF).
+- Minimalist Swiss typographic grid with technical index markers (e.g., '// 00.01°', '//01', 'YR/2025') and uppercase grotesque headings.
+
+Key Sections to Include:
+1. Floating Navbar: Logo, links (Work, Studio, Whispers [with counter badges], Contact), and a 'Let's Create' pill CTA button.
+2. Hero Section: Technical coordinate badge, bold headline ('Digital experiences that connect, scale and perform'), Los Angeles live clock widget, 'See Work' / 'Let's Chat' buttons, a video showreel card with modal trigger, and a dynamic cycling text transition component ('we listen' -> 'we imagine' -> 'we create' -> 'beautiful things').
+3. Featured Projects CMS Grid: Dark cards with high-res imagery, project title, year, category, and floating tech stack badges (Next.js, Tailwind, Framer Motion, WebGL).
+4. Performance Metrics: 4-column counter row (86+ Projects, 80% Repeat Collaborations, 32 Awards, 89% Retention Rate) with scroll-triggered counting animations and an infinite logo marquee.
+5. Services 6-Card Grid: Numbered cards (01 Brand Identity, 02 Strategy, 03 Design, 04 AI Systems, 05 SEO, 06 Development) featuring abstract 3D visual mockups and bulleted feature lists.
+6. Process Section: 4-step horizontal workflow (Discovery -> Strategy -> Design & Build -> Launch & Grow).
+7. Pricing Tiers: 3-column card pricing grid (Core $2,800, Studio $6,500, Scale $12,000) with feature checklists, delivery timeline tags, and discount tags.
+8. Call to Action & Footer: Next availability date pill badge, calendar booking button, 3D character graphic, large studio sign-off typography, and structured footer links.
+
+Animations & Interactions:
+- Smooth Framer Motion viewport reveal animations (fade + slight translateY).
+- Hover zooms on project cards, smooth interactive modal overlays for video showreels, and seamless infinite marquee scrolling.
